@@ -38,6 +38,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
+
         <div class="container">
             <a class="navbar-brand" href="homepage.php">
                 <img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -47,7 +48,13 @@
 
                 <li class="nav-item">
                     <a class="nav-link text-danger" href="php/logout.php">Logout</a>
+                    
                 </li>
+                <li class="nav-item">
+    <button onclick="window.location.href='php/letovi.php';">Dodaj let</button>
+    </li>
+    
+
             </ul>
         </div>
     </nav>
